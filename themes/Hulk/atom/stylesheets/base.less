@@ -1,0 +1,140 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(66, 66, 66, 0.4);
+}
+
+.comment {
+  color: #79796b;
+}
+
+.string {
+  color: #E6DB74;
+}
+
+.constant.numeric {
+  color: #9eedff;
+}
+
+.constant.language {
+  color: #9eedff;
+}
+
+.constant.character, .constant.other {
+  color: #9eedff;
+}
+
+.variable {
+  color: #91bb91;
+}
+
+.keyword {
+  color: #9bbd59;
+}
+
+.storage {
+  color: #9bbd59;
+}
+
+.storage.type {
+  color: #91bb91;
+}
+
+.entity.name.class {
+  color: #AE81FF;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  color: #AE81FF;
+}
+
+.entity.name.function {
+  color: #AE81FF;
+}
+
+.variable.parameter {
+  color: #dd9a38;
+}
+
+.entity.name.tag {
+  color: #9bbd59;
+}
+
+.entity.other.attribute-name {
+  color: #A6E22E;
+}
+
+.support.function {
+  color: #82ff94;
+}
+
+.support.constant {
+  color: #82ff94;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: #82ff94;
+}
+
+.support.other.variable {
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #F92672;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #AE81FF;
+}
