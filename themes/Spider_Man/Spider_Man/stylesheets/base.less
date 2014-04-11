@@ -1,0 +1,137 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(176, 179, 204, 0.1);
+}
+
+.comment {
+  color: #727b87;
+}
+
+.string {
+  color: #ff7e80;
+}
+
+.constant.numeric {
+  color: #fc4a36;
+}
+
+.constant.language {
+  color: #fc4a36;
+}
+
+.constant.character, .constant.other {
+  color: #fc4a36;
+}
+
+.variable {
+  color: #94cbff;
+}
+
+.keyword {
+  color: #ff4d51;
+}
+
+.storage {
+  color: #ff4d51;
+}
+
+.storage.type {
+  font-weight: bold;
+  color: #9e8bdf;
+}
+
+.entity.name.class {
+  color: #A6E22E;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  color: #A6E22E;
+}
+
+.entity.name.function {
+  color: #A6E22E;
+}
+
+.variable.parameter {
+  color: #fcb181;
+}
+
+.entity.name.tag {
+  color: #fcb181;
+}
+
+.entity.other.attribute-name {
+  color: #A6E22E;
+}
+
+.support.function {
+  color: #f5cf9f;
+}
+
+.support.constant {
+  color: #94cbff;
+}
+
+.support.other.variable {
+  font-style: italic;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #F92672;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #AE81FF;
+}
