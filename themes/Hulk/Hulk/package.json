@@ -2,7 +2,7 @@
   "name": "hulk",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "Hulk theme for text editors.",
   "repository": "https://github.com/atom/hulk",
   "license": "MIT",
   "engines": {

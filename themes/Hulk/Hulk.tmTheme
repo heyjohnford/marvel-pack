@@ -273,7 +273,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#25b267</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -288,9 +288,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#d6e162</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#363631</string>
 			</dict>
 		</dict>
 	</array>
