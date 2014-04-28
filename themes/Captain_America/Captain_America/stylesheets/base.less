@@ -1,0 +1,141 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #e5e5e5;
+}
+
+.comment {
+  color: #a59896;
+}
+
+.string {
+  color: #0b4366;
+}
+
+.constant.numeric {
+  color: #db2440;
+}
+
+.constant.language {
+  color: #6ebfe5;
+}
+
+.constant.character, .constant.other {
+  color: #dc4211;
+}
+
+.variable {
+  color: #1177b2;
+}
+
+.keyword {
+  color: #0081c0;
+}
+
+.storage {
+  color: #0081c0;
+}
+
+.storage.type {
+  font-style: italic;
+  color: #64c0df;
+}
+
+.entity.name.class {
+  color: #9e3735;
+}
+
+.entity.other.inherited-class {
+  color: #ff002b;
+}
+
+.entity.name.function {
+  color: #ff002b;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: #9e3735;
+}
+
+.entity.name.tag {
+  color: #1177b2;
+}
+
+.entity.other.attribute-name {
+  color: #b92534;
+}
+
+.support.function {
+  color: #a35893;
+}
+
+.support.constant {
+  color: #a35893;
+}
+
+.support.type, .support.class {
+  color: #a35893;
+}
+
+.support.other.variable {
+  color: #f19798;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #d35b55;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #d1163b;
+}
